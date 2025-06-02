@@ -1,9 +1,9 @@
 ## Nome: Luthiano Matheus Gomes Pacheco
 
-📦 Como executar este projeto
+## 📦 Como executar este projeto
 1. Acesse a pasta do projeto no terminal:
 ```
-cd SEU-CAMINHO/projeto_fase_01</code></pre>
+cd caminho/para/o/projeto/projeto_fase_01
 ```
 
 2. Instale as dependências do projeto:
@@ -18,6 +18,7 @@ npm start
 
 Após a execução, o resultado esperado será uma aplicação para gerenciamento de livros rodando no navegador.
 
+https://github.com/user-attachments/assets/f095a5aa-e3fa-43e2-8c37-9267c990235e
 
 
 ## 📚 Introdução
