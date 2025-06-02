@@ -4,7 +4,9 @@ import About from "./components/About/About";
 import NavBar from "./components/NavBar/NavBar";
 import BookForm from "./components/BookForm/BookForm";
 import BookList from "./components/BookList/BookList";
+import aboutData from "./Data/About";
 import booksData from "./Data/Books";
+import homeData from "./Data/Home";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
@@ -18,8 +20,8 @@ function App() {
   const editBook = (updatedList) => setBooks(updatedList);
 
   let content;
-  if (page === 'home') content = <Home />;
-  else if (page === 'about') content = <About />;
+  if (page === 'home') content = <Home description={homeData} />;
+  else if (page === 'about') content = <About description={aboutData} />;
   else if (page === 'book-form') content = <BookForm addBook={addBook} />;
   else if (page === 'book-list') content = <BookList books={books} removeBook={removeBook} editBook={editBook} setPage={setPage} />;
 

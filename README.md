@@ -27,22 +27,31 @@ Este projeto é uma aplicação desenvolvida em <strong>React</strong> com o obj
 ## 🧩 Componentes
 - <strong>NavBar</strong>
   - Barra de navegação superior que permite trocar entre as páginas "Página Inicial", "Sobre", "Lista de Livros" e "Cadastrar".
+  - parâmetros:
+    - <code>setPage</code>: função de callback para setar o component (caminho) a ser carregado;
+
 - <strong>Home</strong>
   - Página inicial com uma mensagem de boas-vindas.
-  
+  - parâmetros:
+    - description: descrição da tela
+
 - <strong>About</strong>
     - Página com uma breve descrição sobre o projeto.
+    - parâmetros:
+      - description: descrição da tela
   
 - <strong>BookForm</strong>
-    - <code>addBook</code>: função de callback para adicionar um livro.
     - Formulário para cadastro de livros com campos de título, autor, gênero e data.
+    - parâmetros:
+      - <code>addBook</code>: função de callback para adicionar um livro.
   
 - <strong>BookList</strong>
-    - <code>books</code>: array com a lista de livros.
-    - <code>removeBook</code>: função para remover um livro da lista.
-    - <code>editBook</code>: função para ativar o modo de edição de um livro.
-    - <code>setPage</code>: controle de navegação entre as telas.
     - Lista de livros cadastrados com botões de edição e remoção, além de um botão que redireciona para a tela de cadastro de novos livros.
+    - parâmetros:
+      - <code>books</code>: array com a lista de livros.
+      - <code>removeBook</code>: função para remover um livro da lista.
+      - <code>editBook</code>: função para ativar o modo de edição de um livro.
+      - <code>setPage</code>: controle de navegação entre as telas.
 
 ## 🧠 Funcionalidades
 - Navegação entre páginas via estado centralizado.
