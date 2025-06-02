@@ -1,0 +1,19 @@
+.custom-nav {
+    background-color: #101c2c;
+    color: #fafafa;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.custom-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.custom-nav a {
+    transition: color 0.3s;
+}
+
+.custom-nav a:hover {
+    color: #0491d0;
+}
