@@ -1,0 +1,30 @@
+.btn-default {
+    background-color: #f3f4f6;
+    color: #333;
+    border-radius: 20px;
+    padding: 6px 32px;
+}
+
+.btn-default:hover {
+    background-color: #e0e0e0;
+}
+
+.btn-danger {
+    background-color: #c62828;
+    border-radius: 20px;
+    padding: 6px 32px;
+}
+
+.btn-danger:hover {
+    background-color: #b71c1c;
+}
+
+.btn-success {
+    background-color: #689f38;
+    border-radius: 20px;
+    padding: 6px 32px;
+}
+
+.btn-success:hover {
+    background-color: #558b2f;
+}

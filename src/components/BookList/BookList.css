@@ -1,26 +1,10 @@
-.book-list {
-    list-style-position: inside;
-    margin: 0px auto;
-    max-width: 800px;
-    text-align: center;
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
 }
 
-.book-list li {
-    background-color: #101c2c;
-    border-radius: 6px;
-    margin-bottom: 10px;
-    padding: 15px 100px 15px 15px;
-    text-align: left;
-    position: relative;
-}
-
-.icons {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 15px;
-    width: auto;
-    display: inline-block;
-    cursor: pointer;
-    color: #0491d0;
+.action-icons {
+    display: flex;
+    flex-direction: column;
 }
