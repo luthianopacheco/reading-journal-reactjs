@@ -69,5 +69,18 @@ Este projeto é uma aplicação desenvolvida em <strong>React</strong> com o obj
 - Estilização com Material UI + CSS customizado.
 - Responsividade básica para boa visualização em diferentes tamanhos de tela.
 
+## 🔌 Integração com a API
+A aplicação se comunica com a API readingJournal-api, fornecida pela PUCRS, para realizar operações de CRUD (criar, ler, atualizar e deletar) dos livros. Essa integração é feita por meio de hooks personalizados que utilizam a biblioteca axios para enviar requisições HTTP para o backend:
+
+- useFetchBooks: busca todos os livros da API.
+
+- useCreateBook: envia um novo livro cadastrado para a API.
+
+- useUpdateBook: atualiza os dados de um livro existente.
+
+- useDeleteBook: remove um livro da base de dados.
+
+Esses hooks estão em um único arquivo centralizando as requisições. Além dele existem outros dois arquivos hooks onde centralizam os eventos de suas respectivas páginas (BookForm e BookList), intermediando a interação do usuário com as requisições. Essa abordagem não apenas organiza melhor o código, mas também reforça conceitos importantes como separação de responsabilidades e reaproveitamento de lógica.
+
 ## 🚀 Conclusão
   Este projeto foi desenvolvido com foco em aprendizado e prática de conceitos fundamentais do React, como componentização, manipulação de estado, listas dinâmicas, navegação por rotas, componentes estilizados com MUI e requisições HTTP.
