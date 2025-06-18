@@ -4,7 +4,7 @@
 
 1. Acesse a pasta do projeto no terminal:
 ```
-cd caminho/para/o/projeto/projeto_fase_02
+cd caminho/para/o/projeto/reading-journal-reactjs
 ```
 
 2. Instale as dependências do projeto:
@@ -25,13 +25,13 @@ npm start
 Após a execução, o resultado esperado será uma aplicação para gerenciamento de livros rodando no navegador.
 <br/> <br/>
 
-![home](https://github.com/user-attachments/assets/00a4f34b-2925-4221-aa0f-53dec8f72570)
+![home](src/assets/prints_app/home.png)
 
-![about](https://github.com/user-attachments/assets/8b930d53-8647-4ebb-8824-63a6a64da2e1)
+![about](src/assets/prints_app/about.png)
 
-https://github.com/user-attachments/assets/b82fa942-ccea-4eb0-bcd2-e1b0b4302475
+![form](src/assets/prints_app/form.gif)
 
-https://github.com/user-attachments/assets/9ab2934c-074e-42bb-9444-26ae54ad481f
+![book-list](src/assets/prints_app/list.gif)
 
 
 ## 📚 Introdução
