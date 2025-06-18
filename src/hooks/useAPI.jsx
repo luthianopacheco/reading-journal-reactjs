@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import BookModel from '../dataFix/bookModel';
+import BookModel from '../data/bookModel';
 
 const apiUrl = 'http://localhost:5000/books';
 

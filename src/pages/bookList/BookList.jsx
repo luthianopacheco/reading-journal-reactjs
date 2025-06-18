@@ -1,8 +1,8 @@
 import './BookList.css';
 import { Box, CircularProgress, Typography } from '@mui/material';
-import TitleComponent from '../../componentsFix/title/titleComponent';
-import BookListEmpty from '../../componentsFix/bookList/bookListEmpty';
-import BookListGrid from '../../componentsFix/bookList/bookListGrid';
+import TitleComponent from '../../components/title/titleComponent';
+import BookListEmpty from '../../components/bookList/bookListEmpty';
+import BookListGrid from '../../components/bookList/bookListGrid';
 import { useBookList } from '../../hooks/useBookList';
 
 function BookList() {

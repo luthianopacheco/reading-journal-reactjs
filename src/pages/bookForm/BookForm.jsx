@@ -1,9 +1,9 @@
 import { Box } from "@mui/material";
 import { useBookForm } from "../../hooks/useBookForm";
-import TitleComponent from "../../componentsFix/title/titleComponent";
-import BookFormActions from "../../componentsFix/bookForm/bookFormActions";
-import BookFormCard from "../../componentsFix/bookForm/bookFormCard";
-import BookFormAlert from "../../componentsFix/bookForm/bookFormAlert";
+import TitleComponent from "../../components/title/titleComponent";
+import BookFormActions from "../../components/bookForm/bookFormActions";
+import BookFormCard from "../../components/bookForm/bookFormCard";
+import BookFormAlert from "../../components/bookForm/bookFormAlert";
 import './BookForm.css'
 
 function BookForm() {

@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import Logo from "../../componentsFix/logo/logo";
+import Logo from "../../components/logo/logo";
 import './Home.css';
 
 function Home() {
